@@ -17,7 +17,7 @@ if("help" in args || 'h' in args)
 	process.kill(process.pid);
 }
 
-if ('i' in args || "interactive")
+if ('i' in args || "interactive" in args)
 {
 	if(!("path" in args))
 	{
